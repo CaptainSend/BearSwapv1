@@ -39,6 +39,14 @@ export const mainnetTokens = {
     'Bearcoin',
     'https://BearSwap.net/',
   ),
+  twitterx: new Token(
+    MAINNET,
+    '0xDb274FD224f7232889e8872D97F18beb4f500611',
+    9,
+    'TwX',
+    'Twitter x',
+    'https://bearswap.net',
+  ),
   shbar: new Token(
     MAINNET,
     '0xf3bebB4f2D348e44cC4547Cba2F96C214fE5A25A',
