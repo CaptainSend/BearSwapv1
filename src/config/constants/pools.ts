@@ -31,6 +31,20 @@ const pools: SerializedPoolConfig[] = [
     tokenPerBlock: '0.21',
     sortOrder: 1,
     isFinished: false,
+  },
+  {
+    sousId: 2,
+    stakingToken: serializedTokens.twitterx,
+    earningToken: serializedTokens.twitterx,
+    contractAddress: {
+      97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
+      56: '0xEF099e8f2Ad4721A38384B86561b38e81b56cB7B',
+    },
+    poolCategory: PoolCategory.COMMUNITY,
+    harvest: true,
+    tokenPerBlock: '0.4',
+    sortOrder: 1,
+    isFinished: false,
   }
   
 ]
