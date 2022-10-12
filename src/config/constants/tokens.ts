@@ -42,6 +42,14 @@ export const mainnetTokens = {
   twitterx: new Token(
     MAINNET,
     '0xDb274FD224f7232889e8872D97F18beb4f500611',
+    18,
+    'LUNAF',
+    'LunaFlare',
+    'https://bearswap.net',
+  ),
+  lunaflare: new Token(
+    MAINNET,
+    '0x35eD5E1017d10B7fE5f4cD493fB197DD7632dfd1',
     9,
     'TwX',
     'Twitter x',
